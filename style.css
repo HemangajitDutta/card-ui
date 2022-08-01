@@ -56,3 +56,30 @@
     height: 20px;
     width: 30px;
 }
+
+.secondSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstText {
+    color: aliceblue;
+    margin-bottom: 40px;
+
+}
+
+.textSection {
+    padding: 20px 0 0 30px;
+
+}
+
+.controller {
+    transform: rotate(270deg);
+    width: 280px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.imageSection {
+    padding-top: 25px;
+}
