@@ -78,6 +78,21 @@
     width: 280px;
     height: 250px;
     object-fit: contain;
+    cursor: pointer;
+}
+
+.controller:hover {
+    animation: infinite-spinning 4s;
+}
+
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .imageSection {
@@ -99,18 +114,39 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
 .secondPara {
     color: aliceblue;
-    padding:20px ;
+    padding: 20px;
 }
+
 .firstboxLayer {
     display: flex;
-    background-color: rebeccapurple;
     height: 50px;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
 }
+
 .leftLayer {
     display: flex;
+}
+
+.box {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgb(237, 236, 247);
+    background: linear-gradient(90deg, rgba(237, 236, 247, 1) 0%, rgba(18, 168, 199, 1) 100%, rgba(0, 0, 106, 1) 100%);
+
+}
+
+.textbox {
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
