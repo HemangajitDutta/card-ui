@@ -9,12 +9,12 @@
     align-items: center;
     justify-content: center;
     background-color: pink;
-    height: 100vh;
+    padding: 10px;
 }
 
 .cardMain {
     background-color: white;
-    height: 90vh;
+    height: 100vh;
     width: 350px;
     border-radius: 30px;
 
@@ -149,4 +149,37 @@
 .title {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.buttoncontainer {
+    background-color: aliceblue;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    
+}
+.preorder {
+    background-color: green;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding:  0 10px;
+    justify-content: space-between;
+}
+.buttonicon {
+    width: 20%;
+    border-left: 1px solid black;
+    padding: 0 10px;
+    height: 30px;
+}
+.righticon {
+    width: 30px;
+    height: 30px;
+    object-fit:cover;
 }
