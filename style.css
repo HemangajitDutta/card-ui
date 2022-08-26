@@ -151,35 +151,47 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
 .buttoncontainer {
     background-color: aliceblue;
     height: 50px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
     margin: 20px 20px;
     border-radius: 10px;
-    
+
 }
+
 .preorder {
-    background-color: green;
+    background: rgb(226, 223, 255);
+    background: linear-gradient(90deg, rgba(226, 223, 255, 1) 19%, rgba(5, 189, 227, 1) 100%);
     width: 50%;
     height: 30px;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    padding:  0 10px;
+    padding: 0 10px;
     justify-content: space-between;
 }
+
 .buttonicon {
     width: 20%;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(0, 0, 0);
     padding: 0 10px;
     height: 30px;
 }
+
 .righticon {
     width: 30px;
     height: 30px;
-    object-fit:cover;
+    object-fit: cover;
+}
+.money {
+    color: black;
+    font-size: 18px;
+}
+.buttontext{
+    color: black;
 }
